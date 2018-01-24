@@ -1,0 +1,7 @@
+.eachKey{
+  width: 15rem;
+  border-right : 1px solid #ddd;
+}
+.eachValue{
+  width: 20rem;
+}

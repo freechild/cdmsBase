@@ -1,0 +1,99 @@
+/*.input-group{
+  width: auto;
+}*/
+.chapterForm > .input-group > input{
+  width: 470px;
+}
+@media(max-width: 992px){
+  #chapters_1 > .input-group > input{
+    width: 100%
+  }
+}
+
+#chart_div{
+  width: 100%;
+}
+
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.container2-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.checkValue{
+  font-size: 1.2rem;
+  width: 205px;
+}
+
+#searchLayer{
+  padding-bottom: 4rem;
+}
+
+@media(min-width: 992px){
+  .sidebar {
+    width : 14%;
+    padding-left: 4rem;
+  }
+  .main {
+    margin-left :15.5%;
+  }
+  .navbar-inverse{
+    min-height : 60px;
+  }
+}
+
+/*only mobile*/
+@media(max-width: 768px){
+  .navbar-brand{
+    padding : 10px 3px;
+  }
+  div#navbar{
+    background: black;
+  }
+}
+
+/*header*/
+.navbar-inverse{
+  background-color: #00afde;
+}
+.navbar-right > li {
+  font-family : sans-serif;
+  font-size: medium;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: red;
+}
+/* side tab */
+.sidetab > a{
+  color: #225b8b;
+}
+.sidetab{
+  margin-left : -21px;
+  margin-right: -20px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*content*/
+thead{
+  background: #a6a8ab;
+  color: white;
+  font-weight: bold;
+}
